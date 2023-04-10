@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "fun-cluster"
+version = "0.1.0"
+description = ""
+authors = ["MartinRovang <martinrovang@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+matplotlib = "^3.7.1"
+discord = "^2.2.2"
+loguru = "^0.6.0"
+aioschedule = "^0.5.2"
+pytz = "^2023.3"
+openai = "^0.27.4"
+numpy = "^1.24.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
